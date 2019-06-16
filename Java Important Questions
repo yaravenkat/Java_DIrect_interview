@@ -1,0 +1,737 @@
+1. Explain your current project?
+2. Explain your roles and responsibility in your project?
+3. Explain Spring MVC Flow?
+4. Why we use annotations if we have already xml approach?
+5. WAP to print print factorial of given number by using recursive function with the help of annotation-driven spring MVC approach?
+6. WAP to print fabonacci Series of given number?
+7. Diff among String, StringBuffer and StringBuilder?
+8. What is static and instance variable?
+9.  How to make your own class as immutable?
+10. Write the test case of factorial with the help of JUnit?
+11. what is Mockito and its uses in real time environment?
+12. What is Agile methodology and explain each terminology of agile and its usage?
+13. What is implicit object in jsp? Write their name?
+14. What is ThreadSchedular?
+15. Which Map are used in ThreadSchedular and why?
+16. Diff b/w HashMap and ConcurrentHashMap?
+17. Collection and Map Hierarchy?
+18. Diff b/w throw and throws?
+19. How you write user-define Exception?
+20. What is polymorphism ? where you used polymorphism in your project?
+21. What is encapsulation? where you used encapsulation in your project?
+22. What is abctract class?
+23. Diff b/w abstract class and interface?
+24. What is IOC?
+25. What is DI and its Type?
+26. How will you debug your project?
+27. What is break point in debbuging?
+28. How will you communicate from UI to Webapp to Database?
+29. If your manager assigns you 20 tasks for a week among them 15 are very easy, 4 are modirate and 1 is very difficult from which level you will start your work?
+30. If project is deploy in production environment and some bug is detected,your project lead also don't know about that bug the how will you  handle that sitiations?
+31. Few Questions from my resume?
+32. Few Questions from tool which i ketp in my resume?
+
+
+
+=============================================================================
+
+Core Java
+=========
+1-> input String Array ["abc","tkd","bca","fgd","cab","dfg","aabc"]
+    write a method to print output like below
+    ["abc","bca","cab"]
+    ["tkd"]
+    ["fgd","dfg"]
+    ["aabc"]
+    
+    In the above output you can see each array contains the word which has exact same letters and also same no of letter. i.e "abc" can become "bca"
+
+2-> Hash TreeSet works. Can we add different type of object to TreeSet(i.e Integer,String,Float)
+
+3-> Association, Aggregation and Composition
+
+4->   class A{}
+      class B extends{}
+      
+      what will happen for below code
+      1-> B b = new A();
+      2-> B b = (B) new A();
+      
+5->   int a[] = new int[]{3,4,5,6,7}
+      
+      what will happen for below code
+      for(int i=0;i<a.length;i++){
+        sysout(a[i])
+        break;
+        sysout(a[i])
+      }
+      
+      what will happen for below code
+      for(int i=0;i<a.length;i++){
+        sysout(a[i])
+        continue;
+      }
+6-> input array [5,6,4,7,2,5]
+    output [6,7,7,-1,5,-1]
+    
+    for each element we have to find next higher no of current number
+    suppose for i=0 i.e 5 the next higher number is 6
+    for i=3 i.e 7 there is no next higher number so -1
+    for i=5 i.e 5 there is no next higher number so -1
+    
+    (try to mimize the time complexity. Do it in O(n) or O(n logn))
+7->What is Functional interface and whta is lambda expression.
+
+8-> Can you write the interface of Predicate whatever is given by Java.
+
+9->input array [1,3,4,7,8,9,10] and 2
+
+    output-> find the no of pairs whosedifference is "2" like 3-1=2
+    10-8=2
+    9-7= 2
+    
+    so the output is 3(no of pairs that has difference of 2) if there is no pairs return -1
+    (try to minimize the time complexity)
+    
+10->Can you explain the different parts of JVM memory. And how the memory managements works in JVM.
+
+11-> How Garbage Collection works in java
+
+12-> How to monitor your JVM and findout DeadLock in application and findout if there is any memory leak.
+
+13-> Input a map with <Integer, String>
+      1 -> Tarun
+      2 -> Abhisek
+      3 -> Rakesh
+      4 -> Tarun
+      5 -> Rakesh
+      
+      remove the duplicate values from map and print the kay,value in sorted order of values like 2-> Abhisek, 3->Rakesh, 1->Tarun
+14-> given a array of data. Use Stream, filter the data,collect the data to map
+
+15-> How many ways we can create Thread. What will happen if we call run() directly. Ho to make thread Deamon
+
+16-> What is WeakHashMap. Give me a scenario where we can use it
+
+17-> Which Collection you wiil use to Design a dictionary.
+
+18-> How to a make a Immutable class
+
+19-> You have a class "Demo" where you have overriden hasCode() and equals() method. where hasCode() returns 1 every time and equals() return false every time.
+    Set<Demo> a= new HashSet<>();
+    for(int i=0;i<100;i++ ){
+      a.add(new Demo());
+    }
+
+    What will be output of a.size();
+
+20-> How HashMap Works. Difference between CuncurrentHashMap  and HashMap
+
+21- How to write a wrapper class
+
+22-> where all we can wrtie syncrinized keyword
+
+
+Spring Boot with Spring Cloud
+=============================
+
+1-> How Sprint Boot internally works. What process it follows.
+
+2-> What is the differences between Spring MVC and Spring Boot
+
+3-> What is the purpose of Microservice
+
+4-> what is Eureka Server. How it works. How you make a Eureka Server
+
+5-> What is Zoul. How it works. What is the benifit.
+
+5-> What is Ribbon. What is the benifit of it
+
+6-> How to interact two microservice. What is the best way to do.
+
+7-> What will happen if we make a Controller class as Scope Prototype
+
+8-> If you are using Feign Client to inter communicate between two microservice. How you handle Exception in Feign. How you write Custom Error Decoder
+
+9-> How to make you configurations Centralised. How to Encrypt some of your properties.
+
+10-> What is the use Spring Actuator. what are the endpoints it exposed. what are response parameter for endpoint (/health)
+
+11-> How You make your application High Available in case of Microservice.
+
+12-> What are the log monitoring tools you are using in Production. And how do you find a perticular error.
+
+13-> Which type of Authentication and Authorization you are using in you application.
+
+14-> How OAuth2 works. What are different components of OAuth2
+
+15-> What is AuthorizationServer and ResourceServer and difference.
+
+16-> How Spring Transaction works. What the Isolation and Propagation Levels
+
+17-> Do you know how Proxy Design Pattern works in Spring. Can you tell for which scenarios Proxy Pattern is implimented in spring.
+
+18-> Bean A should be crated before Bean B. How to do
+
+19-> How to solve circular Dependency
+
+20-> Different type of @Autowire
+
+21-> what is cron job. How to write Cron expressions.
+
+
+Rest
+=====
+
+1-> Why to use Rest Service.
+
+2-> What are differet types of Rest Methods
+
+3-> Which all methods are Idompotent
+
+4-> What is different between post,put,patch
+
+5-> Write a Rest EndPoint using proper conventions
+
+6-> How to write a enpoint for file Upload
+
+
+Docker
+=====
+
+1-> What is Docker
+
+2-> How it helps in microservice architecture.
+
+3-> How you are using docker with spring boot application
+
+
+NoSql
+=====
+
+1-> What is NoSQL
+
+2-> How it is different that SQL
+
+3-> What is CAP Theorem
+
+4-> How many types of NoSQL DB are ther
+
+5-> What type of NoSQL DB is mongo and cassnadra
+
+6-> How Sharding works in Mongo
+
+8-> what is Replica-Set in Mongo. And how it works
+
+9-> What is Redis
+
+10-> Why you are using Redis in Your Application
+
+11-> How Mongo DB stores its data.
+
+12-> What is aggregation in Mongo
+
+
+Design Patterns
+=============
+1-> Which type of Design pattern you used
+
+2- write Singleton Design
+
+2-> What is Observable Design Patter
+
+3-> Differnce Between Factory and Abstract Factory
+
+4-> Design A Connection Pool 
+
+
+Others
+======
+1->Full Project Architecture
+
+2-> Angular Js
+    @Component
+    @Injectable
+    what is observable.
+    How to handle events
+    How modularization works in Angular
+    What is two way binding.
+    Why Angular Team rewriting there Library frequently
+    
+    
+SQL
+===
+
+1-> 3rd Highest Salary
+
+2-> Inner Join
+3-> Two tables are ther Flipkart and Amazon.
+
+    Flipkart
+    
+    product_id|price
+    1         | 123
+    2         | 345
+    
+    
+    Amozon
+    
+    product_id|price
+    2         |45
+    1         |1222
+    
+    In Both table product id are same. Write a query to print product_id and minimum price of both table
+
+
+    STRING PROGRAMME
+=================
+1) Write a java program to find the duplicate words and their number of occurrences in a string?
+2) Write a java program to count the number of words in a string?
+3) Write a java program to reverse a string?
+4) Write a java program to count the number of occurrences of each character in a string?
+5) Write a java program to remove all white spaces from a string?
+6) Write a java program to find duplicate characters in a string?
+7) Write a java program to reverse each word of a given string?
+8) Write a java program to prove that strings are immutable in java?
+9) How do you swap two string variables without using third or temp variable in java?
+10)Write a java program to check string is anagram ?
+
+Add element in linklist.
+
+ARRAY PROGRAMME
+================
+1)How do you find duplicate elements in an array?
+2)How do you find second largest element in an array of integers?
+3)How do you separate zeros from non-zeros in an integer array?
+
+
+MISC
+====
+1)Write a java program to find factorial of the given number ?
+2)Write a java program to check whether the given number is even or odd ?
+3)Write a java program to find the greatest of three numbers ?
+4)Write a java program to find the greatest among ten numbers ?
+5)Write a java program to check whether the given number is a prime number ?
+6)Write a java program to check whether the given number is a palindrom number ?
+7)Write a java program to check whether the given string is a palindrome ?
+8)Write a java program to generate the Fibonacci series ?
+9)Write a java program to find longest word in a string ?
+10)Write a java program to find Armstrong number ?
+
+CORE JAVA
+==========
+1) How to create your own custom execption class ?
+2) How to create your own immutable class ?
+3) consumer provider programme ?
+4) Comparable & comparator ?
+5) Internal implimentation of equals & hashcode methods ?
+
+DESIGNING PATTERNS
+===================
+1)SingleTon
+2)Factory
+3)Adapter
+4)Decorator
+5)Cache
+6)Template
+
+
+Microservice & Spring Boot:
+=============================
+What is the Role of API Gateway
+i have 2 microservice one microservice consuming other microservice using Rest Template , if there is any failure occur then how to handle it
+How i can customize my error message in Zuul proxy
+What are the basic things we need to configure for zuul proxy to redirect request to appropriate service 
+what are OSS Netflix component you used in your project
+How you will monitor your application in each environment ? how can i design UI for it
+How to change port in spring boot
+How to configure multiple data-source in spring boot 
+How to disable spring boot logo from the console
+
+Core Java:
+==========
+How to Sort list of Employee based on a field using lambda
+How TreeMap worked internally 
+
+Spring :
+==========
+What are the bean scope in spring 
+Difference between spring bean scope singleton and Plain singleton 
+What are the best features in Spring5
+What is the other api available in Spring to consume other Rest API
+Miscellaneous 
+What are the challenging task you worked on your project 
+Advantages of GIT over SVN
+
+=================
+Tell me about yourself .
+What is auto configuration in spring boot?
+What is your current project.
+Explain your project with micro-services architecture.
+How did you apply security in your application ?
+How transaction management work in spring and how you handled in your project.
+Suppose you have a user object with one property list of address and you have to save user details in service A and address list and service B both are having different databases then how you will handle this transaction.
+What is client side load balancing and server side load balancing and how you were doing in your project.
+Why Eureka Service Discovery Registry?
+What is the use of feign and how it works.
+How zuul manage routing ?
+How will you handle if a service is down?
+What is docker ? Do you know any other tool like docker? 
+How to create docker image ? How to create docker container ?
+How to create EC2 instance in aws?What is S3 bucket ?
+What is actuator ?
+How to configure MySQL with spring boot.
+You developed chatting feature in your application and used spring websocket module.Explain how you configured ? We can also send data in spring rest then why spring websocket ?What code you write client side for this.
+If I give you git link of a spring boot project then how will you execute this in your system?
+Suppose we want to search employee based on empid,salary and age.All are optional what endpoints you write? 
+What is the entry point of spring boot application and how server start that application? 
+What is Dependency Injection?What is default scope of bean?What is use of @Bean
+What is IOC?How IOC know about bean classes?
+What are the different scope of bean
+When client send json data then how you consume it and how json data is converted in java object
+Write code snippet to remove duplicate employee object from employee list 
+What will happen if override equals method but not hashcode
+How Treeset sort data.
+Write code to split employee list in sub-list based on similar employee id.
+How did you handle exception in your project
+What is @ControllerAdvice 
+What are different type of advice ?
+Write Singleton class ?
+What design patterns you have used in your project.
+Explain Lambda expression . 
+Explain java memory management .What are the different type of memory in jvm.
+How do you handle OutOfMemoryError
+How to execute native sql query in hibernate to get list object a pojo class which is not entity class.
+What is two way binding in angularjs?
+How do you manage angularjs  controller, services if your project?
+Write code to make ajax call in angularjs.
+
+===============================================
+
+Accenture Interview Question:
+1. Where you used polymorphism
+2. How to find memory leakage in your application
+3. How is use of gc
+4. Can we execute GC
+5. How to propagate exception between multiple layer
+6. What is use of multi catch block
+7. When we have to use comparator
+8. What is contract between hash code and equal method
+9. How to improve performance of application
+10.  How stream api is working internally
+11. What is use of functional interface
+12. What is order if creation object (listener, filter, Servlet context, Servlet config)
+13. How to pass additional data between multiple web pages
+14. How to invalidate session.
+15. How to configure error page in Servlet
+16. Different between L1 and L2 cache
+17. What is DI and IOC
+18. Spring bean life cycle
+19. Spring MVC flow
+Infogain Interview Question:
+1. Write the query to find duplicate value in related column.
+2. Write the query to give grant for particular table
+3. What is difference between primary key and unique key
+4. What is DML and DDL
+5. What is use of sequence
+6. What is Rollback policy?
+7. Difference between truncate and delete and drop
+8. How to validate form using javascript
+9. Write a program based on selection one should be enables and one disabled
+10. How to read form value using javascript.
+11. Write the program to disable all filed
+12. How to send disable form field value to next page
+13. Write a program to retrieve a data from controller and display in jsp page
+14. What is safe method is rest api
+15. Difference between http1 and http2
+16. How to implement cache in Rest api.
+17. What is use ETAG is rest
+18. Difference between BASIC and DIGEST security.
+19. How you will provide method level security in rest.
+20. How to handle transaction between multiple database
+21. Give typical architecture of your project
+22. Which SDLC model you are following 
+23. How you are getting requirement
+24.  How you can make your rest api as thread safe
+Capgemini Interview Question:
+1. Online amcat written test( Java, Spring, Hibernate technical question)
+2. Write a immutable class without using final keyword
+3. Write a program to explain all oops concept
+4. What will happen if we store custom object in tree set or tree map.
+5. Why string class is immutable not string buffer.
+6. Difference b/w IO stream NIO Stream
+7. What is disadvantage of IO stream
+8. What is service locator design pattern
+9. What are design pattern you have used in your project
+10. Difference between Factory design pattern and abstract Factory pattern
+11. What is proxy design pattern
+12. What all are the pattern used by spring
+13. What is pull mechanism and push mechanism
+14. What is disadvantage of hibernate
+15. When we have native sql in hibernate why we have to use jdbc
+16. How to call procedure in hibernate
+17. How to resolve n+1 problem in hibernate.
+18. What is asynchronous and synchronous communication?
+19. Difference b/w absolute path and relative path
+20. What if order of logging level
+21. How to configure connection pool in server. How you get object of that
+22. Difference between flat transaction and distributed transaction.
+23. What is trace method in http.
+24. How to raise a event in your application.
+25. When are working multiple environment so how your managing DB credentials in your application.
+26. How to resolve conflict in git.
+27. How you are making your war file how you are deploying.
+28. What is your rollback policy if deployment got failed?
+29.  What all are your step to resolve production issue.
+30. How you are managing you team.
+31. Have you involved in design.
+SoftVision Interview questions:
+1. How to read session attribute in spring mvc
+2. What is difference between request param and path param
+3. What is use of @ModelAttribute annotation
+4. What is use of @Initbinder annotation
+5. Diffrencce between @Rest Controller and @ Controller
+6. Difference b/w @Component and @Bean
+7. Explain all view resolver and controller in spring
+8. What is difference between xml configuration and annotation based configuration in spring
+9. What is difference between request and session scope
+10. If depended been have prototype scope if we call getbean method what will happen.
+11. What is aware injection 
+12. What is dependency pool and dependency lookup
+13. What is bean post processor
+14. Spring bean life cycle method.
+15. What is namaparamer jdbc template and jdbc template.
+16. Jdbc template is thred safe or not
+17. how to integrate spring with ORM tool write the program
+18. how to configure multiple property file in spring.
+19. how to execute batch in spring jdbc
+20. difference between rowmapper and resultsetextraror
+21.  what is difference between ref and idref tag
+22. How to handle exception in spring mvc
+23. Difference between put and post method
+24. What is resource class and resource method in rest
+25. What is use of @Context annotation in rest
+26. What is difference between url and Uri.
+27. What is difference between itrate and execute update method in hibernate
+28. What is QBC and criterion object in hibernate
+29. What is order class and restriction class in hibernate.
+30. What happen if we call get uniqueResult() method in hibernate if query giving multiple result.
+31. Difference between merge and update method in hibernate.
+32. What of component mapping in hibernate.
+33. How to configure composite key In hibernate.
+34. What is group id and artifact id in maven
+35. Maven life cycle. And maven project architecture
+36. Diffrence between mvn clean and maven install
+37. How to resolve conflict in maven
+38. How to configure your test case in maven
+39. What is difference between after class and before class in junit
+40. How to test void method in junit.
+41. How to test you rest api using junit
+
+
+========================
+Q-1 - What is Comprable and Comprator. Tell me how you used Comprator in ur project?
+Q-2- What are different ways are there to acquire locks?
+Q-3-Internal Of HasSet and HashMap. How Hashset prevents duplicates?
+Q-4-Singleton DP and Diff ways to create Singleton DP.
+Q-5-What is Spring and How to create ApplicationContext?
+Q-6-Bean LifeCycle and Autowiring(ByName and ByType).
+Q-7-Diff between Soap and Rest?
+Q-8 - What are the different Http Methods available and Can we delete when we are getting one element from DB?
+ Q-9-Difference between get and load?
+Q-10- What is Native SQL and HQL?
+Q-11-Difference between Save and Merge?
+Q-12-Different Types Of Collection Available in Hibernate?
+Q-13-Different Types Of Caching in Hibernate?
+Q-14-What is Immutability and How do I achieve it?
+
+=========================================================
+
+Spring 
+
+
+1. What  are the scopes available in spring?
+2. What is the difference between request and prototype scope?
+3. Why qualifier?
+4. What is DispatcherServlet?
+5. How many view resolvers are there? 
+6. How to gather data from end user and store in DB?
+7. Why spring boot?
+8. What is the internal of Spring boot?
+9. How to integrate hibernate with spring?
+10. Why AOP is required?
+11. What is the difference between BeanFactory and ApplicationContext?
+12. What is the use of @Transaction.
+13. How  you implemented security in your project?
+14. write down how you are configuring  JpaRepository according to springboot ?
+
+
+Hibernate
+
+
+1. What is Dialect?
+2. Where you write configuration detail?
+3. What is HQL? Have you ever used HQL in your project?
+4. How to use L2 cache? 
+5. Difference between l1 and l2 cache and where they are associate?
+6. Difference between merge and update?
+Core java
+1. What is object level and class level synchronization?
+2.  What is the difference between below case?
+Final Map map=new HashMap();
+map.add(1,”IT”);
+map.put(2,”HR”);
+and
+String s=new String(“hello”);
+S=”hey”;
+3. Internal of HashMap?
+4. What is collision?
+5. What my class need to follow if it has to be added to map?
+6. What will happen?
+Condition is my hashCode() always returns 1 and equal() always returns false..
+Final Map<Emp,String> map=new HashMap<Emp,String>();
+Emp e1=new Emp(1,”suchi”);
+Emp e2=new Emp(1,”guguli”);
+Emp e3=new Emp(1,”laali”);
+map.put(e1,IT);
+map.put(e2,IT);
+map.put(e3,IT);
+what will be the result? What will happen?
+7. What will be the result of map.get(e2);
+8. Difference between JVM,JRE,JDK?
+9. What is the minimum requirement to run a java application?
+10. Why java?
+11. What are the basic feature of object oriented programming language?
+12. What is difference between arrayList and linkedList?
+
+
+Rest:
+
+1. How  to create a rest api?
+2. Difference between query param and path param?
+3. What is request body?
+4. why rest over soap?
+5. How to convert json data?
+    
+
+
+ #Core Java ,#Spring and #Hibernate
+
+ 1.project architecture? 
+ 2.spring flow? 
+ 3.list out all the annotations in spring? 
+ 4.what are all the annotations you used in your project on restful services? 
+ 5.in hibernate use of cascade and inverse? 
+ 6.first level cache? second level cache in hibernate? 
+ 7.waht is diff b/w arraylist and linkedlist? 
+ 8.can you explain the internal flow of hashmap? 
+ 9.what is the diff b/w hashmap and hashtable? 
+ 10.diff b/w array and arraylist? 
+ 11.diff b/w arraylist and vector? 
+ 12.in your project where you used cuncurrent hashmap? 
+ 13.waht is java annoying? 
+ 14.diff b/w callable interface adn future interface in concurrent package?
+ 15.class loaders? 
+ 16.how can you take list into map? 
+ 17.how can you take map into list? 
+ 18.when you will get ClassNotFoundException and NoClassDefFoundError? 
+ 19.how you implement exception handling in your project? 
+ 20.where you implement multi-threading in your project? 
+ 21.what are all the design patterens you oberved in spring? 
+ 22.which design patters you used in your project? 
+ 23.what are all the critial situations you come across in your project? 
+ 24.why wait() placed in object class ? why not it is placed in Thread class?
+ 25.waht is use of intern() in spring? 
+ 26.what is diff b/w String str="xyz"; and String str2= new String("xyz"); 
+ 27.expalin about java architectue? 
+ 28.explain about jvm architecture? 
+ 29.data base queries? 
+ 30.i have a compeny table in remote database. by using rest i need to get the table data and print into a file? 
+ 31.how to read book pages on online library by using bookid or author id(by using restful services)? 
+ 32.i have a table in remote database, how to update the data in that table using rest? 
+ 33.diff b/w rest and web(soap)? 
+ 34.agile methodolgy? 
+ 35.how to create web-services project and spring project using mavan? 
+ 36.what is diff b/w throw and throws? 
+ 37.can you tell me java8 features? 
+ 38.what are all the contents in wsdl? 
+ 39.refer regular expressions? 
+ 40.can i add elements to list , if it is defined as final
+ ex:final List<String> list= new ArrayList<>();? 
+ 41.if you pass duplicate key to map what will happen? 
+ 42.diff b/w abstract class and interface? 
+ 43.diff b/w comparator and comparable? 
+ 44.how to compare two database tables(clue: comparator, compare(), you have to compare database objects.)? 
+ 45.how to set timeout for the browser?(clue: restful client api.)? 
+ 46.what workflow you used in your project? 
+ 47.why java? why not c & c++? 
+ 48.In written test they are asking sorting programs(bubblesort,quicksort,...)? 
+ 49.what is time complexity? if you are going to implement sorting by your own which sorting you prefer? and why? 
+ 50.what is the use of volatile and synchronized? 
+ 51.what is serialization? have you implement serialization in your project? 
+ 52.programs on io streams? 
+ 53.why we are using @qualifier? 
+ 54.diff b/w Bean Factory and Application Context? 
+ 55.explain about ioc container? 
+ 56.programs on string manipulations?(they are expecting solv by using regular expressions). 
+ 57.how you are implemented polymorphism in your project? 
+ 58.how you iterate map having key and list<values>? 
+ 59.diff b/w Iterator and ListIterator and Enumarator? 
+ 60.what are all the collections are supporting ListIterator? 
+ 61.how to make non-synchronized map and list as synchronized(by using collection method)? 
+ 62.what is diff b/w collection and collections? 
+ 63.write the junit test case for the below senario.. 
+ 
+ -->read array of elements into list<>. 
+ 64.what are all the modifiers we can use inside method?(ans: only final) 
+ 65.what is diff b/w spring-jdbc and hibernate? 
+ 66.what are all the drawbacks of jdbc over hibernate? 
+ 67.what are all the problems with inheritance? 
+ 68.what is the use of hinernate session? 
+ 69.they given one query in sql and they are asking corresponding criteria api query? 
+ 70.why we are using @transient in hibernate? 
+ 71.what are all the inputs we are giving to SessionFactory? 
+ 72.what we are writing in hibernate-mapping file? 
+ 73.what we are writing in hibernate-configuration file? 
+ 74.senario: in jsp page with 2 buttons, one for addbook and another is for showListOfBooks(by using spring and hibernate)? 
+ 75.what is use of @ComponentScan? 
+ 76.what is use of dispatcher servlet? 
+ 77. What are all the pre-processings tasks done by DispatcherServlet? 
+ 78. how to render excel and pdf view to the enduser(using poi and itext api's)? 
+ 79.How to validate valid username and password in spring?for validating can i directly interact with dao without service? 
+ 80.by default servlet container will handle multi-threaded applications , then why you are implementing multi-threading in your application?
+
+
+===================
+Spring Important Methodologies
+
+1.Serializable interface
+2.Use of serialVersionUID
+3.Use of equals method
+4.Use of instanceOf
+5.Use of hashCode - Each and every table has its own hashCode
+6.when to override hashCode and equals() and toString()
+
+
+1.POJO means
+2.Bean means
+3.@Embedded annotation
+4.JSON Schema
+5.Validation of JSON schema
+6.SQL vs NoSQL
+7.Dependency Injection
+8.Factory Method
+9.singleton design pattern
+10.Beans
+11.RestEndpoints
+12.CRUD
+
+1.@Embedded annotation
+2.@ManyToOne
+3.@JoinColumns
+4.@JoinColumn
+5.@Column
+6. @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd HH:mm:ss")
+7.@Entity
+8.@Table
+9.@ID,@GenericGenerator,@GeneratedValue
