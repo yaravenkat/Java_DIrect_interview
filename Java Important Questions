@@ -626,7 +626,7 @@ Rest:
  9.what is the diff b/w hashmap and hashtable? 
  10.diff b/w array and arraylist? 
  11.diff b/w arraylist and vector? 
- 12.in your project where you used cuncurrent hashmap? 
+ 12.in your project where you used concurrent hashmap? 
  13.waht is java annoying? 
  14.diff b/w callable interface adn future interface in concurrent package?
  15.class loaders? 
@@ -698,6 +698,7 @@ Rest:
  78. how to render excel and pdf view to the enduser(using poi and itext api's)? 
  79.How to validate valid username and password in spring?for validating can i directly interact with dao without service? 
  80.by default servlet container will handle multi-threaded applications , then why you are implementing multi-threading in your application?
+ 81.What's the difference between ConcurrentHashMap and Collections.synchronizedMap(Map)?
 
 
 ===================
