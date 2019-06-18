@@ -44,7 +44,7 @@ Core Java
     
     In the above output you can see each array contains the word which has exact same letters and also same no of letter. i.e "abc" can become "bca"
 
-2-> Hash TreeSet works. Can we add different type of object to TreeSet(i.e Integer,String,Float)
+2-> How TreeSet works. Can we add different type of object to TreeSet(i.e Integer,String,Float)
 
 3-> Association, Aggregation and Composition
 
