@@ -1,0 +1,85 @@
+*All language notes from Ameerpeth, Hyderabad*
+
+https://drive.google.com/drive/mobile/folders/16Sfv_0kNEJsbAMZ9VAbnBZujGTOdVU7l
+
+
+Link of all Notes:- https://drive.google.com/drive/folders/1aeAAl5C-HdkXzQMxLjpbkbNuCdytAsdW
+
+
+https://drive.google.com/drive/folders/1aeAAl5C
+-HdkXzQMxLjpbkbNuCdytAsdW
+
+Java
+https://drive.google.com/drive/folders/1djzDyZN1cR3RuIaVtVhKKrdN-r34tNoC
+
+Oracle
+
+https://drive.google.com/drive/folders/1XYnJT6NPKF-vW3zQOpJF2s1W1CCoc0iW
+
+Microservice
+https://drive.google.com/drive/folders/12GlNZDG3culG4-6ihyGhzLnKhElXE7YO
+
+Angular
+
+https://drive.google.com/drive/folders/17_Y46GvgydBQO6au-Ao9hSJcq_rbmwI8
+
+Spring
+
+https://drive.google.com/drive/folders/1qq415HPPBIKBdg2EPtELYh9Kaj3Y8IZg
+
+Design patterns
+https://drive.google.com/drive/folders/1OiOI47K9Okp-EGpXjxDTXbL5LQIuc_C7
+
+
+Core Java
+https://drive.google.com/drive/folders/1XDvRr4dI9EKca3GrISKR-8sarzP4dLZB
+
+
+Spring
+
+https://drive.google.com/drive/folders/1qq415HPPBIKBdg2EPtELYh9Kaj3Y8IZg
+
+Spring interview
+
+https://drive.google.com/drive/folders/1odjbM0-7NywvpzTkD3fVdK40Wv0FWYqp
+
+We services notes
+
+https://drive.google.com/drive/folders/1XORC0CugerZbGahesf-aseRBIY_oQx6O
+
+
+Microservice
+
+https://dzone.com/articles/spring-boot-microservices-building-microservices-a
+
+CodeIntelligent:
+https://drive.google.com/drive/folders/1qq415HPPBIKBdg2EPtELYh9Kaj3Y8IZg (Spring Notes)
+
+https://drive.google.com/drive/folders/1MCnKnC6Uzv_705K66BTJUwek68UJrQXl (Hibernate Notes)
+
+https://drive.google.com/drive/folders/1XDvRr4dI9EKca3GrISKR-8sarzP4dLZB (Java Notes)
+
+https://drive.google.com/drive/folders/1Oh-fBk_rwmkYwON4_sAu2zLuRQJ82c6F (Advanced Java Notes)
+
+https://drive.google.com/drive/folders/13RUdtLiPqtB3E1ZkMJ6xQavXf-Zm9a6Z (Notes for Agile, Eclipse Shortcuts, GIT, Gradle, JIRA, JUnit, Log4j, Maven, SVN)
+
+
+https://drive.google.com/drive/folders/1lOGoPKGh8unwGIW3Xos2qi3D8yP_IY00 (DevOps Notes)
+
+https://drive.google.com/drive/folders/1YsUxCbkZqVRlh__k0zw88FB7kArFih5v (Android Notes)
+
+https://drive.google.com/drive/folders/1_ASUrbTw3TCN5Z9bCa3UkuHpJ08OSmpt (AWS Notes)
+
+https://drive.google.com/drive/folders/1ozpF-SmL1lAffYIJ55vWAs6K52IKSJBx (Bash Notes)
+
+https://drive.google.com/drive/folders/17kh67-xCsSv6v0r4tP5u1BzN09vUW8gZ (Blockchain Notes)
+
+https://drive.google.com/open?id=14p80ao8pHefJDBgGvm7bOWFjPD6TMb2S
+
+Java 8 all features notes
+
+https://www.udemy.com/course/react-and-redux-for-absolute-beginners/?deal_code=2020IN35&utm_source=aff-campaign&utm_medium=udemyads&utm_term=Homepage&utm_content=Textlink&utm_campaign=NetSec-20May2020&ranMID=39197&ranEAID=VkwVKCHWj2A&ranSiteID=VkwVKCHWj2A-XeSO.U1ql6cpU4sukeRaKQ&LSNPUBID=VkwVKCHWj2A&couponCode=WEEKEND
+
+Git details
+
+https://drive.google.com/drive/folders/1IWeUcJzru8_xdetbeLfihgHvY-wwVIFh?usp=sharing
